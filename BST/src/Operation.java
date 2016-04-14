@@ -302,6 +302,9 @@ public class Operation {
 	/**
 	 * judge the tree is or not balanced using the other
 	 *  way(the code is wrong).
+	 * the repair method is that:the return param can de defined List<Object>
+	 * including boolean is or not balance and current height, so that 
+	 * we can get LeftHeight and RightHeight
 	 */
 	public boolean isBalanced_otherway(TreeNode root,int height){
 		if(root == null){
